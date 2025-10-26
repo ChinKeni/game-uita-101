@@ -2,7 +2,7 @@
 
 > 参考 [滚动条 (Scrollbar)](https://docs.unity3d.com/cn/2023.2/Manual/script-Scrollbar.html) 、 [滚动矩形 (Scroll Rect)](https://docs.unity3d.com/cn/2023.2/Manual/script-ScrollRect.html) 官方文档。
 >
-> 前置知识： [可选基类 ／交互基类 (Selectable Base Class)](可选基类%20／交互基类%20(Selectable%20Base%20Class).md) 、 [遮罩(Mask)](可视组件/遮罩(Mask).md) 内容。
+> 前置知识： [可选基类 ／交互基类 (Selectable Base Class)](可选基类%20／交互基类%20(Selectable%20Base%20Class).md) 、 [遮罩(Mask)](../可视组件/遮罩(Mask).md) 内容。
 
 ## 滚动条 (Scrollbar)
 
@@ -22,7 +22,7 @@
 
 #### **Direction**
 
-​`方向` - 拖动 `控制柄` 的方向。
+​`方向`​ - 拖动 `控制柄` 的方向。
 
 ‍
 
@@ -66,7 +66,7 @@
 
 #### **Viewport**
 
-​`边界` - `内容` 可以滑动的边界限制，官方默认结构下 `Mask` 是放在这层的，实际上非必须有特殊应用可以放别的位置。
+​`边界`​ - `内容`​ 可以滑动的边界限制，官方默认结构下 `Mask` 是放在这层的，实际上非必须有特殊应用可以放别的位置。
 
 #### **Horizontal/Vertical** **Scrollbar**
 
@@ -80,9 +80,9 @@
 
 ​*​`Auto Hide:`​*  自动隐藏，不做其他处理
 
-​*​`Auto Hide And Expand Viewport:`​*  自动隐藏并且扩展 `边界` ，并且开启 `Spacing` 参数，根据这个参数，内容全显时给出更大 `边界` 且隐藏掉滚动条，但内容会跳变，且 `Viewport` 会被限制设置宽高。
+​*​`Auto Hide And Expand Viewport:`​* ​ 自动隐藏并且扩展 `边界`​ ，并且开启 `Spacing`​ 参数，根据这个参数，内容全显时给出更大 `边界`​ 且隐藏掉滚动条，但内容会跳变，且 `Viewport` 会被限制设置宽高。
 
-##### -**Spacing**​
+##### -**Spacing**
 
 ​`间隔` - 用来扩展Viewport的，特殊情况使用，大多数其实不用这个模式。
 
@@ -102,7 +102,7 @@
 
 ##### - **Elasticity**
 
-​`MovementType` 设置成 `Elastic` 的时候，开启参数，设置反弹量。
+​`MovementType`​ 设置成 `Elastic` 的时候，开启参数，设置反弹量。
 
 #### **Inertia**
 

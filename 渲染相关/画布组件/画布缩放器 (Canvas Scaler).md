@@ -2,7 +2,7 @@
 
 > 参考官方 [画布缩放器 (Canvas Scaler)](https://docs.unity3d.com/cn/current/Manual/script-CanvasScaler.html) 文档。
 >
-> 前置知识： [Sprite(2D and UI)](资产管理/贴图相关/贴图导入设置.md#20250831115115-z0go7o1)。
+> 前置知识： [Sprite(2D and UI)](../../资产管理/贴图相关/贴图导入设置.md#20250831115115-z0go7o1)。
 
 画布缩放器组件用于控制画布中 UI 元素的整体缩放和像素密度。此缩放会影响画布下的所有内容，包括字体大小和图像边框。
 
@@ -90,7 +90,7 @@
 
 #### **Reference Pixels Per Unit**
 
-​`参考单位像素` - 如果 `Sprite` 设置了 `PPU`（[Pixels Per Unit](资产管理/贴图相关/贴图导入设置.md#20250831133615-gcqncra)） ，在使用 [图像(Image)](可视组件/图像(Image).md) 的 [Set Native Size](可视组件/图像(Image).md#20250817204043-54sb880) 时会进行参考计算。
+​`参考单位像素`​ - 如果 `Sprite`​ 设置了 `PPU`​（[Pixels Per Unit](../../资产管理/贴图相关/贴图导入设置.md#20250831133615-gcqncra)） ，在使用 [图像(Image)](../../可视组件/图像(Image).md) 的 [Set Native Size](../../可视组件/图像(Image).md#20250817204043-54sb880) 时会进行参考计算。
 
 > UI大小 = 原圖大小(Pixels)  /  (Pixels Per Unit / Reference Pixels Per Unit)
 

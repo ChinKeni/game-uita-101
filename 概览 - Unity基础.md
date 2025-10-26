@@ -25,43 +25,81 @@
 
 ## 学习UI组件
 
-### [可视组件](可视组件.md)
+### [可视组件](/可视组件.md)
 
 用来构成表现的最基本组件。
 
-- [X] [文本(Text)](可视组件/文本(Text).md)
-- [X] [图像(Image)](可视组件/图像(Image).md)
-- [X] [遮罩(Mask)](可视组件/遮罩(Mask).md)
-- [X] [网格效果(BaseMeshEffect)](可视组件/网格效果(BaseMeshEffect).md)
-- [X] [元图(RawImage)](可视组件/元图(RawImage).md)
+##### 常用
+
+- [文本(Text)](可视组件/文本(Text).md)
+- [图像(Image)](可视组件/图像(Image).md)
+- [遮罩(Mask)](可视组件/遮罩(Mask).md)
+- [网格效果(BaseMeshEffect)](可视组件/网格效果(BaseMeshEffect).md)
+
+##### 需要了解
+
+- [元图(RawImage)](可视组件/元图(RawImage).md)
+- [文本(Text)](可视组件/文本(Text).md)
 
 ‍
 
-### [交互组件](交互组件.md)
+### [交互组件](/交互组件.md)
 
 交互组件本身不可见，必须与一个或多个 [可视组件](https://docs.unity3d.com/cn/2023.2/Manual/UIVisualComponents.html) 组合才能正常工作。
 
-- [X] [可选基类 ／交互基类 (Selectable Base Class)](交互组件/可选基类%20／交互基类%20(Selectable%20Base%20Class).md)
-- [ ] [按钮 (Button)](交互组件/按钮%20(Button).md)
-- [ ] [开关 (Toggle)](交互组件/开关%20(Toggle).md)
-- [ ] [开关组 (Toggle Group)](交互组件/开关组%20(Toggle%20Group).md)
-- [ ] [滑动条 (Slider)](交互组件/滑动条%20(Slider).md)
-- [X] [滚动矩形／滚动视图 (Scroll Rect／Scroll View)](交互组件/滚动矩形／滚动视图%20(Scroll%20Rect／Scroll%20View).md)
-- [ ] [下拉选单 (Dropdown)](交互组件/下拉选单%20(Dropdown).md)
-- [ ] [输入字段 (Input Field)](交互组件/输入字段%20(Input%20Field).md)
+##### 通用设置
 
-‍
+- [可选基类 ／交互基类 (Selectable Base Class)](交互组件/可选基类%20／交互基类%20(Selectable%20Base%20Class).md)
 
-### [布局组件](布局组件.md)
+##### 常用
+
+- [按钮 (Button)](交互组件/按钮%20(Button).md)
+
+- [开关 (Toggle)](交互组件/开关%20(Toggle).md)
+
+- [开关组 (Toggle Group)](交互组件/开关组%20(Toggle%20Group).md)
+
+- [滑动条 (Slider)](交互组件/滑动条%20(Slider).md)
+
+- [滚动矩形／滚动视图 (Scroll Rect／Scroll View)](交互组件/滚动矩形／滚动视图%20(Scroll%20Rect／Scroll%20View).md)
+
+##### 需要了解
+
+- [下拉选单 (Dropdown)](交互组件/下拉选单%20(Dropdown).md)
+
+- [输入字段 (Input Field)](交互组件/输入字段%20(Input%20Field).md)
+
+- [可选基类 ／交互基类 (Selectable Base Class)](交互组件/可选基类%20／交互基类%20(Selectable%20Base%20Class).md)
+
+### [布局组件](/布局组件.md)
 
 官方分为基础布局和自动布局，这里合并到布局统一讲解。
 
-‍
+##### 锚点布局
 
-### [动效组件](动效组件.md)
+- [矩形变换 (Rect Transform)](布局组件/矩形变换%20(Rect%20Transform).md)
+
+##### 自动布局
+
+- [内容大小适配器 (Content Size Fitter)](布局组件/内容大小适配器%20(Content%20Size%20Fitter).md)
+- [水平布局组 (Horizontal Layout Group)](布局组件/水平布局组%20(Horizontal%20Layout%20Group).md)
+- [垂直布局组 (Vertical Layout Group)](布局组件/垂直布局组%20(Vertical%20Layout%20Group).md)
+- [网格布局组 (Grid Layout Group)](布局组件/网格布局组%20(Grid%20Layout%20Group).md)
+- [布局元素 (Layout Element)](布局组件/布局元素%20(Layout%20Element).md)
+- [宽高比适配器 (Aspect Ratio Fitter)](布局组件/宽高比适配器%20(Aspect%20Ratio%20Fitter).md)
+
+### [动效组件](/动效组件.md)
 
 分为动画(Animation)、状态机(Animator)，更推荐使用状态机。
 
-[动画(Animation)](动效组件/动画(Animation).md)
+##### 常用
 
-[状态机(Animator)](动效组件/状态机(Animator).md)
+- [动画(Animation)](动效组件/动画(Animation).md)
+
+- [动画集成 (Animation Integration)](动效组件/动画集成%20(Animation%20Integration).md)
+
+##### 需要了解
+
+- [状态机(Animator)](动效组件/状态机(Animator).md)
+
+‍

@@ -2,19 +2,19 @@
 
 > 参考 [可选基类 (Selectable Base Class)](https://docs.unity3d.com/cn/2023.2/Manual/script-Selectable.html "可选基类 (Selectable Base Class)") 官方文档。
 >
-> 前置知识： [可视组件](可视组件.md) 、[动效组件](动效组件.md)。
+> 前置知识： [可视组件](../可视组件.md) 、[动效组件](../动效组件.md)。
 >
 > 官方翻译是可选基类，我这里为了方便理解称呼 `交互基类` ；
 
 ​`交互基类` 是所有交互组件的基类，可处理共同的项。
 
-初学者需要掌握配置 [状态](#20250815013918-filj2nt)、[Transition](#20250815014037-79zigo7)，状态和表现配置部分。
+初学者需要掌握配置 [状态]()、[Transition]()，状态和表现配置部分。
 
 ## 构成参数
 
 ### **Interactable**
 
-​`可交互` - 默认是可交互，如果设置不可交互，`Transition` 会切换到Disable，如果是装饰用来提示滚动范围时，可以把 `Disable` 当 `Normal` 参数设置。
+​`可交互`​ - 默认是可交互，如果设置不可交互，`Transition`​ 会切换到Disable，如果是装饰用来提示滚动范围时，可以把 `Disable`​ 当 `Normal` 参数设置。
 
 ‍
 
@@ -22,7 +22,7 @@
 
 ### <span id="20250815014037-79zigo7" style="display: none;"></span>**Transition**
 
-​`过渡表现` - 有几个表现选项可选。选择后需要设置不同的 [状态](#20250815013918-filj2nt) 包括：正常、突出显示、按下和禁用。
+​`过渡表现`​ - 有几个表现选项可选。选择后需要设置不同的 [状态]() 包括：正常、突出显示、按下和禁用。
 
 #### None
 
@@ -52,7 +52,7 @@
 
 #### Sprite Swap
 
-​`图片切换` - 根据设置的 `Sprite/图片/精灵` 切换显示。
+​`图片切换`​ - 根据设置的 `Sprite/图片/精灵` 切换显示。
 
 ![image](assets/image-20250815031052-88uolk2.png)
 
@@ -64,7 +64,7 @@
 
 #### Animation
 
-​`动画` - 虽然是写作 `Animation` ，实际上资产用的是 `状态机（Animator）`。
+​`动画`​ - 虽然是写作 `Animation`​ ，实际上资产用的是 `状态机（Animator）`。
 
 ![image](assets/image-20250815031152-3tiw0wl.png)
 

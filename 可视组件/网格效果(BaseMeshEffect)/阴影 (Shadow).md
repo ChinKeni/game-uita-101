@@ -4,7 +4,7 @@
 
 ## 表现
 
-![image](assets/image-20250831110915-fo4t5g3.png)![image](assets/image-20250831110919-et7z6f8.png)​
+![image](assets/image-20250831110915-fo4t5g3.png)![image](assets/image-20250831110919-et7z6f8.png)
 
 ## 参数窗口
 
@@ -22,6 +22,6 @@
 
 ### **Use Graphic Alpha**
 
-​`使用图形透明度` - 将图形的透明度叠加到效果颜色上。是否被  `图像(Image)` 的 `颜色` 参数的透明度影响。
+​`使用图形透明度`​ - 将图形的透明度叠加到效果颜色上。是否被  `图像(Image)`​ 的 `颜色` 参数的透明度影响。
 
 ‍
